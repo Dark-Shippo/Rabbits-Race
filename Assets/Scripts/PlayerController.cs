@@ -3,6 +3,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem.Processors;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -121,6 +122,10 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             coins++;
             text.text = coins.ToString();
+        }
+        if (other.CompareTag("Portal1"))
+        {
+            SceneManager.LoadScene("Level1", LoadSceneMode.Single);
         }
         
     }

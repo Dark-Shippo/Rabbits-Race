@@ -43,14 +43,10 @@ public class Menu : MonoBehaviour
         }
     }
 
-    public void StartGame()
-    {
-        //SceneManager.LoadScene("", LoadSceneMode.Single);
-    }
     public void TestArea()
-
-    { SceneManager.LoadScene("TestArea", LoadSceneMode.Single); }
-
+    { 
+        SceneManager.LoadScene("TestArea", LoadSceneMode.Single); 
+    }
     public void QuitGame()
     {
 
@@ -61,7 +57,6 @@ public class Menu : MonoBehaviour
         MenuObjects.gameObject.SetActive(false);
         menuOpen = false;
     }
-
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
@@ -70,9 +65,8 @@ public class Menu : MonoBehaviour
     public void ReturnHub()
 
     {
-        //SceneManager.LoadScene("", LoadSceneMode.Single);
+        SceneManager.LoadScene("HUB", LoadSceneMode.Single);
     }
-
     public void RestartLevel()
 
     {
