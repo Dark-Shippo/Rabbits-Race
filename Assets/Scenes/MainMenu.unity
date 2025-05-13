@@ -1037,13 +1037,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObjects: {fileID: 825405915}
   GameOverMenu: {fileID: 0}
-  startButton: {fileID: 1991651125}
-  testButton: {fileID: 437901970}
-  quitButton: {fileID: 899849135}
-  menuButton: {fileID: 0}
-  continueButton: {fileID: 0}
-  restartButton: {fileID: 0}
-  hubButton: {fileID: 0}
   menuOpen: 0
   player: {fileID: 0}
 --- !u!4 &1019669978
@@ -1656,7 +1649,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1019669977}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: ReturnHub
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
