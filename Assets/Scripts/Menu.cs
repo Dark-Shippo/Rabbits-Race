@@ -6,13 +6,6 @@ public class Menu : MonoBehaviour
 {
     public GameObject MenuObjects;
     public GameObject GameOverMenu;
-    public Button startButton;
-    public Button testButton;
-    public Button quitButton;
-    public Button menuButton;
-    public Button continueButton;
-    public Button restartButton;
-    public Button hubButton;
     public bool menuOpen = false;
     [SerializeField]
     private PlayerController player;

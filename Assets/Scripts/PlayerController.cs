@@ -127,6 +127,10 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("Level1", LoadSceneMode.Single);
         }
+        if (other.CompareTag("HUB"))
+        {
+            SceneManager.LoadScene("HUB", LoadSceneMode.Single);
+        }
         
     }
 }

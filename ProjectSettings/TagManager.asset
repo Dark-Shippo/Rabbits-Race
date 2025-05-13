@@ -7,10 +7,11 @@ TagManager:
   - Ground
   - Enemy
   - Pit
-  - Portal
   - Attack
   - Coin
   - Chest
+  - Portal1
+  - HUB
   layers:
   - Default
   - TransparentFX
