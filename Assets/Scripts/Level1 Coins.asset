@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fab913b0f882d744bc27e82fb13a981, type: 3}
-  m_Name: Data
+  m_Name: Level1 Coins
   m_EditorClassIdentifier: 
   prefabName: Coin
-  numberOfPrefabsToCreate: 1
+  numberOfPrefabsToCreate: 5
   spawnPoints:
-  - {x: 0, y: 0.5, z: 0}
+  - {x: 0, y: 1, z: -36}
+  - {x: 0, y: 1, z: -6}
+  - {x: 0, y: 3.39, z: 19}
+  - {x: 0, y: 3.39, z: 35}
+  - {x: 0, y: 1, z: 69}
